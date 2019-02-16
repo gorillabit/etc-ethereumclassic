@@ -1,6 +1,11 @@
-## https://classicetherwallet.com - Content of ClassicEtherWallet.com is served directly from github.
-
-### ClassicEtherWallet
+--------------------------------------------------
+###Web version: https://myethereumclassic.github.io
+#Android Version: https://play.google.com/store/apps/details?id=com.gbproject.etherwallet
+----------------------------------------------------
+##Donate pleese:
+DogeCoin:DEh7XDj4bDjRp76GT5PgSgmE9eSxBWKZeQ
+ETH,ETC,CLO:0xb8b2ad74a3b8102e92e06c045d69a8ca7a01ea73
+------------------------------------------------------
 
 ClassicEtherWallet is an open source, javascript, client-side tool for operating Ethereum Classic wallets.
 
@@ -47,9 +52,7 @@ If you want to help contribute, here's what you need to know to get it up and ru
 - `fonts` and `images` get moved into their respective folders. This isn't watched via gulp so if you add an image or font, you need to run `gulp` again.
 - `includes` are the pieces of the pages / the pages themselves. These are pretty self explanatory and where you will make most frontend changes.
 - `layouts` are the pages themselves. These basically take all the pieces of the pages and compile into one massive page. The navigation is also found here...sort of.
-    * `index.html` is for https://ethereumproject.github.io/etherwallet/
-    * `cx-wallet.html` is the main page for the Chrome Extension.
-    * `embedded.html` is for https://ethereumproject.github.io/etherwallet/embedded.html.
+    * `index.html` is for https://myethereumclassic.github.io
 
 - You can control what shows up on ClassicEtherWallet.com vs the Chrome Extension by using: `@@if (site === 'cx' )  {  ...  }` and `@@if (site === 'mew' ) { ... }`. Check out `sendTransaction.tpl` to see it in action. The former will only compile to the Chrome Extension. The latter only to ClassicEtherWallet.com.
 - `embedded.html` is for embedding the wallet generation into third-party sites.
@@ -57,13 +60,3 @@ If you want to help contribute, here's what you need to know to get it up and ru
 - The navigation is in `scripts/services/globalServices.js`. Again, we control which navigation items show up in which version of the site in this single file.
 - As of September 2016, almost all the copy in the .tpl files are only there as placeholders. It all gets replaced via angular-translate. If you want to change some copy you need to do so in `scripts/translations/en.js` folder. You should also make a note about what you changed and move it to the top of the file so that we can make sure it gets translated if necessary.
 - `styles` is all the less. It's a couple custom folders and bootstrap. This badly needs to be redone. Ugh.
-
-
-
-
-### Contact
-If you can think of any other features or run into bugs, let us know:
-
-Submin an issue [here](https://github.com/EthereumCommonwealth/Roadmap).
-
-Write a e-mail: dexaran@ethereumclassic.org
