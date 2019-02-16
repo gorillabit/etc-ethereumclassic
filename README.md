@@ -1,8 +1,6 @@
 --------------------------------------------------
-### Web version: 
-               https://myethereumclassic.github.io
-# Android Version: 
-               https://play.google.com/store/apps/details?id=com.gbproject.etherwallet
+### Web version: https://myethereumclassic.github.io
+# Android Version: https://play.google.com/store/apps/details?id=com.gbproject.etherwallet
 ----------------------------------------------------
 ## Donate pleese:
 DogeCoin:DEh7XDj4bDjRp76GT5PgSgmE9eSxBWKZeQ
