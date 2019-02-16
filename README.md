@@ -11,8 +11,7 @@ ETH,ETC,CLO:0xb8b2ad74a3b8102e92e06c045d69a8ca7a01ea73
 
 ClassicEtherWallet is an open source, javascript, client-side tool for operating Ethereum Classic wallets.
 
-- Official link: https://classicetherwallet.com
-- Served from github link: https://ethereumproject.github.io/etherwallet/
+- Official link: https://myethereumclassic.github.io
 
 ### Purpose
 
